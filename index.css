@@ -1,0 +1,82 @@
+body{
+    margin:0;
+    padding:0px;
+}
+.main-wrapper{
+    background-color: #b8b8ff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: #f8f7ff;
+    padding: 3em 3em;
+    border-radius: 1em;;
+}
+.header{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+label{
+    display: block;
+    font-size: large;
+}
+input{
+    border: 1px solid lightgray ;
+    background: transparent;
+    font-size: larger;
+    font-weight: 300;
+    padding: 5px 0px 5px 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 0.5em;
+}
+input:hover{
+    cursor: pointer;
+}
+.exchange-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    >div div{
+        display:flex;
+        align-items: center;
+        border: 1px solid lightgray;
+        border-radius: 0.5rem; 
+        padding: 1px 2px;;
+    }
+    padding-bottom: 20px;
+}
+img{
+    height: 20px;
+    aspect-ratio: 1/1;
+}
+select{
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+select:hover{
+    cursor: pointer;
+}
+.exchange-rate{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+.submit{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #f8f7ff;
+    background-color: #9381ff;
+    border: none;
+    border-radius: 1em;
+
+}
+.submit:hover{
+    cursor: pointer;
+    background-color: #a2a2f4;
+}
