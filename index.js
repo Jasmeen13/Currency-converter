@@ -6,6 +6,7 @@ const country = document.querySelectorAll("select");
 const exchangeIcon = document.querySelector("#exchange-icon");
 const result = document.querySelector(".exchange-rate");
 const inputValue = document.querySelector("#amount-input")
+import { countryList } from "./codes";
 let exchangeRateWRTEuro;
 
 let dataFetch = false;
